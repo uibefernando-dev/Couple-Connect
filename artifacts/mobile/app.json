@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "情侣互动",
-    "slug": "mobile",
+    "name": "ConnectIn",
+    "slug": "connectin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mobile",
+    "scheme": "connectin",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -14,9 +14,12 @@
       "backgroundColor": "#FFF8F8"
     },
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.connectin.app"
     },
-    "android": {},
+    "android": {
+      "package": "com.connectin.app"
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
